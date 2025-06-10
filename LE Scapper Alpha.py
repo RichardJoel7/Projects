@@ -22,7 +22,7 @@ driver = webdriver.Chrome(service=service, options=options)
 # Step 1: Login
 driver.get("https://research.cdsalpha.com/Account/LogOn?ReturnUrl=%2f")
 driver.find_element(By.ID, "UserName").send_keys("CDS1511")
-driver.find_element(By.ID, "Password").send_keys("123456789z$")
+driver.find_element(By.ID, "Password").send_keys("confidential")
 driver.find_element(By.CSS_SELECTOR, "input.btn.btn-info").click()
 
 
